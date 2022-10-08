@@ -1,0 +1,27 @@
+{
+  "name": "graphql-learning",
+  "version": "1.0.0",
+  "description": "Project to learn graphql",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RIZZTOWN/GraphQL-Learning.git"
+  },
+  "author": "RIZZTOWN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RIZZTOWN/GraphQL-Learning/issues"
+  },
+  "homepage": "https://github.com/RIZZTOWN/GraphQL-Learning#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
